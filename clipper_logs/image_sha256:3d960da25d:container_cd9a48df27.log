@@ -1,0 +1,110 @@
+[1m[00:50:34.248][info]       [REDIS] Successfully issued command "SELECT 1"
+[00m[1m[00:50:34.249][info]     [STATEDB] Persistent state DB created
+[00m[1m[00:50:36.093][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[00:50:36.094][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:36.094][info]       [REDIS] Successfully issued command "HGETALL pong"
+[00m[1m[00:50:36.094][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:36.095][info]       [REDIS] Successfully issued command "HMSET pong input_type doubles policy DefaultOutputSelectionPolicy default_output 0 latency_slo_micros 100000"
+[00m[1m[00:50:44.908][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[00:50:44.908][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[00:50:44.909][info]       [REDIS] Successfully issued command "HGETALL pong:1"
+[00m[1m[00:50:44.909][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:44.910][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[00:50:44.910][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[00:50:44.911][info]       [REDIS] Successfully issued command "SMEMBERS pong"
+[00m[1m[00:50:44.911][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[00:50:44.911][info]       [REDIS] Successfully issued command "HMSET pong:1 model_name pong model_version 1 load 0.000000 input_type doubles labels  container_name pong:1 model_data_path DEPRECATED batch_size -1"
+[00m[1m[00:50:44.912][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[00:50:44.912][info]       [REDIS] Successfully issued command "SET CURRENT_MODEL_VERSION:pong 1"
+[00m[1m[00:50:44.922][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[00:50:44.923][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:44.923][info]       [REDIS] Successfully issued command "HGETALL pong"
+[00m[1m[00:50:44.923][info]       [REDIS] 	 input_type: doubles
+[00m[1m[00:50:44.923][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[00:50:44.923][info]       [REDIS] 	 default_output: 0
+[00m[1m[00:50:44.923][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[00:50:44.923][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[00:50:44.923][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:pong"
+[00m[1m[00:50:44.923][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[00:50:44.924][info]       [REDIS] Successfully issued command "HGETALL pong:1"
+[00m[1m[00:50:44.924][info]       [REDIS] 	 model_name: pong
+[00m[1m[00:50:44.924][info]       [REDIS] 	 model_version: 1
+[00m[1m[00:50:44.924][info]       [REDIS] 	 load: 0.000000
+[00m[1m[00:50:44.924][info]       [REDIS] 	 input_type: doubles
+[00m[1m[00:50:44.924][info]       [REDIS] 	 labels: 
+[00m[1m[00:50:44.924][info]       [REDIS] 	 container_name: pong:1
+[00m[1m[00:50:44.924][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[00:50:44.924][info]       [REDIS] 	 batch_size: -1
+[00m[1m[00:50:44.924][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[00:50:44.924][info]       [REDIS] Successfully issued command "SMEMBERS pong"
+[00m[1m[00:50:44.924][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[00:50:44.924][info]       [REDIS] Successfully issued command "SADD pong pong"
+[00m[1m[00:50:53.707][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[00:50:53.707][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:53.708][info]       [REDIS] Successfully issued command "HGETALL pong-trained-2"
+[00m[1m[00:50:53.708][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:50:53.708][info]       [REDIS] Successfully issued command "HMSET pong-trained-2 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[00:58:30.845][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[00:58:30.846][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:58:30.846][info]       [REDIS] Successfully issued command "HGETALL pong-trained-3"
+[00m[1m[00:58:30.847][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[00:58:30.847][info]       [REDIS] Successfully issued command "HMSET pong-trained-3 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[01:14:17.632][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[01:14:17.633][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:14:17.634][info]       [REDIS] Successfully issued command "HGETALL pong-trained-3"
+[00m[1m[01:14:17.634][info]       [REDIS] 	 input_type: doubles
+[00m[1m[01:14:17.634][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[01:14:17.634][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[01:14:17.634][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[01:14:43.774][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[01:14:43.774][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:14:43.775][info]       [REDIS] Successfully issued command "HGETALL pong-trained-4"
+[00m[1m[01:14:43.775][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:14:43.776][info]       [REDIS] Successfully issued command "HMSET pong-trained-4 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[01:23:16.174][info]   [MGMTFRNTD] Add application POST request
+[00m[1m[01:23:16.174][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:23:16.175][info]       [REDIS] Successfully issued command "HGETALL pong-trained-5"
+[00m[1m[01:23:16.175][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:23:16.175][info]       [REDIS] Successfully issued command "HMSET pong-trained-5 input_type doubles policy DefaultOutputSelectionPolicy default_output -1.0 latency_slo_micros 100000"
+[00m[1m[01:24:32.260][info]   [MGMTFRNTD] Add model POST request
+[00m[1m[01:24:32.260][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[01:24:32.260][info]       [REDIS] Successfully issued command "HGETALL p-trained-5:1"
+[00m[1m[01:24:32.261][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:24:32.261][info]       [REDIS] Successfully issued command "KEYS *"
+[00m[1m[01:24:32.261][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.261][info]       [REDIS] Successfully issued command "SMEMBERS pong-trained-3"
+[00m[1m[01:24:32.262][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.262][info]       [REDIS] Successfully issued command "SMEMBERS pong"
+[00m[1m[01:24:32.262][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.263][info]       [REDIS] Successfully issued command "SMEMBERS pong-trained-4"
+[00m[1m[01:24:32.263][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.263][info]       [REDIS] Successfully issued command "SMEMBERS pong-trained-2"
+[00m[1m[01:24:32.264][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.264][info]       [REDIS] Successfully issued command "SMEMBERS pong-trained-5"
+[00m[1m[01:24:32.264][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[01:24:32.265][info]       [REDIS] Successfully issued command "HMSET p-trained-5:1 model_name p-trained-5 model_version 1 load 0.000000 input_type doubles labels  container_name p-trained-5:1 model_data_path DEPRECATED batch_size -1"
+[00m[1m[01:24:32.265][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[01:24:32.265][info]       [REDIS] Successfully issued command "SET CURRENT_MODEL_VERSION:p-trained-5 1"
+[00m[1m[01:24:32.274][info]   [MGMTFRNTD] Add application links POST request
+[00m[1m[01:24:32.275][info]       [REDIS] Successfully issued command "SELECT 5"
+[00m[1m[01:24:32.275][info]       [REDIS] Successfully issued command "HGETALL pong-trained-5"
+[00m[1m[01:24:32.275][info]       [REDIS] 	 input_type: doubles
+[00m[1m[01:24:32.275][info]       [REDIS] 	 policy: DefaultOutputSelectionPolicy
+[00m[1m[01:24:32.275][info]       [REDIS] 	 default_output: -1.0
+[00m[1m[01:24:32.275][info]       [REDIS] 	 latency_slo_micros: 100000
+[00m[1m[01:24:32.275][info]       [REDIS] Successfully issued command "SELECT 6"
+[00m[1m[01:24:32.276][info]       [REDIS] Successfully issued command "GET CURRENT_MODEL_VERSION:p-trained-5"
+[00m[1m[01:24:32.276][info]       [REDIS] Successfully issued command "SELECT 2"
+[00m[1m[01:24:32.277][info]       [REDIS] Successfully issued command "HGETALL p-trained-5:1"
+[00m[1m[01:24:32.277][info]       [REDIS] 	 model_name: p-trained-5
+[00m[1m[01:24:32.277][info]       [REDIS] 	 model_version: 1
+[00m[1m[01:24:32.277][info]       [REDIS] 	 load: 0.000000
+[00m[1m[01:24:32.277][info]       [REDIS] 	 input_type: doubles
+[00m[1m[01:24:32.277][info]       [REDIS] 	 labels: 
+[00m[1m[01:24:32.277][info]       [REDIS] 	 container_name: p-trained-5:1
+[00m[1m[01:24:32.277][info]       [REDIS] 	 model_data_path: DEPRECATED
+[00m[1m[01:24:32.277][info]       [REDIS] 	 batch_size: -1
+[00m[1m[01:24:32.277][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.277][info]       [REDIS] Successfully issued command "SMEMBERS pong-trained-5"
+[00m[1m[01:24:32.277][info]       [REDIS] Successfully issued command "SELECT 7"
+[00m[1m[01:24:32.278][info]       [REDIS] Successfully issued command "SADD pong-trained-5 p-trained-5"

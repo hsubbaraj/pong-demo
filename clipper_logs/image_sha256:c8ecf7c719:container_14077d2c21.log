@@ -1,0 +1,27 @@
+level=info ts=2018-08-31T00:50:36.418292952Z caller=main.go:225 msg="Starting Prometheus" version="(version=2.1.0, branch=HEAD, revision=85f23d82a045d103ea7f3c89a91fba4a93e6367a)"
+level=info ts=2018-08-31T00:50:36.41837628Z caller=main.go:226 build_context="(go=go1.9.2, user=root@6e784304d3ff, date=20180119-12:01:23)"
+level=info ts=2018-08-31T00:50:36.418400432Z caller=main.go:227 host_details="(Linux 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64 14077d2c2149 (none))"
+level=info ts=2018-08-31T00:50:36.418420099Z caller=main.go:228 fd_limits="(soft=1048576, hard=1048576)"
+level=info ts=2018-08-31T00:50:36.427595266Z caller=web.go:383 component=web msg="Start listening for connections" address=0.0.0.0:9090
+level=info ts=2018-08-31T00:50:36.427562424Z caller=main.go:499 msg="Starting TSDB ..."
+level=info ts=2018-08-31T00:50:36.449480476Z caller=main.go:509 msg="TSDB started"
+level=info ts=2018-08-31T00:50:36.449540779Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=info ts=2018-08-31T00:50:36.45632459Z caller=main.go:486 msg="Server is ready to receive web requests."
+level=info ts=2018-08-31T00:50:36.456629018Z caller=manager.go:59 component="scrape manager" msg="Starting scrape manager..."
+level=info ts=2018-08-31T00:50:38.853587397Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=info ts=2018-08-31T00:50:58.212774586Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=info ts=2018-08-31T00:58:39.237502549Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=info ts=2018-08-31T01:15:50.4241158Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=info ts=2018-08-31T01:24:29.216489Z caller=main.go:585 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+level=warn ts=2018-08-31T01:26:09.501394Z caller=scrape.go:915 component="scrape manager" scrape_pool=p-trained-5_1-37993 target=http://p-trained-5_1-37993:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=72
+level=warn ts=2018-08-31T01:26:09.5016285Z caller=scrape.go:686 component="scrape manager" scrape_pool=p-trained-5_1-37993 target=http://p-trained-5_1-37993:1390/metrics msg="append failed" err="out of order sample"
+level=warn ts=2018-08-31T01:26:09.6328825Z caller=scrape.go:915 component="scrape manager" scrape_pool=query target=http://query_frontend_exporter-82435:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=136
+level=warn ts=2018-08-31T01:26:09.6329402Z caller=scrape.go:686 component="scrape manager" scrape_pool=query target=http://query_frontend_exporter-82435:1390/metrics msg="append failed" err="out of order sample"
+level=warn ts=2018-08-31T01:26:09.8322344Z caller=scrape.go:915 component="scrape manager" scrape_pool=pong_1-35763 target=http://pong_1-35763:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=72
+level=warn ts=2018-08-31T01:26:09.832284Z caller=scrape.go:686 component="scrape manager" scrape_pool=pong_1-35763 target=http://pong_1-35763:1390/metrics msg="append failed" err="out of order sample"
+level=warn ts=2018-08-31T01:26:14.498866Z caller=scrape.go:915 component="scrape manager" scrape_pool=p-trained-5_1-37993 target=http://p-trained-5_1-37993:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=72
+level=warn ts=2018-08-31T01:26:14.4989757Z caller=scrape.go:686 component="scrape manager" scrape_pool=p-trained-5_1-37993 target=http://p-trained-5_1-37993:1390/metrics msg="append failed" err="out of order sample"
+level=warn ts=2018-08-31T01:26:14.6359292Z caller=scrape.go:915 component="scrape manager" scrape_pool=query target=http://query_frontend_exporter-82435:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=136
+level=warn ts=2018-08-31T01:26:14.6360031Z caller=scrape.go:686 component="scrape manager" scrape_pool=query target=http://query_frontend_exporter-82435:1390/metrics msg="append failed" err="out of order sample"
+level=warn ts=2018-08-31T01:26:14.8334206Z caller=scrape.go:915 component="scrape manager" scrape_pool=pong_1-35763 target=http://pong_1-35763:1390/metrics msg="Error on ingesting out-of-order samples" num_dropped=72
+level=warn ts=2018-08-31T01:26:14.8334919Z caller=scrape.go:686 component="scrape manager" scrape_pool=pong_1-35763 target=http://pong_1-35763:1390/metrics msg="append failed" err="out of order sample"
